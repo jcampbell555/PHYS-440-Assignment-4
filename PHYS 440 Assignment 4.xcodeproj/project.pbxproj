@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F631E5F27D2DECD00BC63EB /* Drawing_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F631E5E27D2DECD00BC63EB /* Drawing_View.swift */; };
+		8F631E6027D2DECD00BC63EB /* Drawing_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F631E5E27D2DECD00BC63EB /* Drawing_View.swift */; };
 		8FA6554727C97AFB005A9C49 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6554627C97AFB005A9C49 /* Tests_iOS.swift */; };
 		8FA6554927C97AFB005A9C49 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6554827C97AFB005A9C49 /* Tests_iOSLaunchTests.swift */; };
 		8FA6555327C97AFB005A9C49 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6555227C97AFB005A9C49 /* Tests_macOS.swift */; };
@@ -17,6 +19,12 @@
 		8FA6555927C97AFB005A9C49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6552F27C97AFA005A9C49 /* ContentView.swift */; };
 		8FA6555A27C97AFB005A9C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA6553027C97AFB005A9C49 /* Assets.xcassets */; };
 		8FA6555B27C97AFB005A9C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA6553027C97AFB005A9C49 /* Assets.xcassets */; };
+		8FA6556B27C97BAB005A9C49 /* 1D_Schrodinger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6556A27C97BAB005A9C49 /* 1D_Schrodinger.swift */; };
+		8FA6556C27C97BAB005A9C49 /* 1D_Schrodinger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6556A27C97BAB005A9C49 /* 1D_Schrodinger.swift */; };
+		8FA6556E27C99A76005A9C49 /* Runge_Kutta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6556D27C99A76005A9C49 /* Runge_Kutta.swift */; };
+		8FA6556F27C99A76005A9C49 /* Runge_Kutta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6556D27C99A76005A9C49 /* Runge_Kutta.swift */; };
+		8FA6557127C99DD1005A9C49 /* Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6557027C99DD1005A9C49 /* Potentials.swift */; };
+		8FA6557227C99DD1005A9C49 /* Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6557027C99DD1005A9C49 /* Potentials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F631E5E27D2DECD00BC63EB /* Drawing_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_View.swift; sourceTree = "<group>"; };
 		8FA6552E27C97AFA005A9C49 /* PHYS_440_Assignment_4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHYS_440_Assignment_4App.swift; sourceTree = "<group>"; };
 		8FA6552F27C97AFA005A9C49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8FA6553027C97AFB005A9C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		8FA6554E27C97AFB005A9C49 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA6555227C97AFB005A9C49 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8FA6555427C97AFB005A9C49 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		8FA6556A27C97BAB005A9C49 /* 1D_Schrodinger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1D_Schrodinger.swift; sourceTree = "<group>"; };
+		8FA6556D27C99A76005A9C49 /* Runge_Kutta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runge_Kutta.swift; sourceTree = "<group>"; };
+		8FA6557027C99DD1005A9C49 /* Potentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potentials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,10 @@
 				8FA6552E27C97AFA005A9C49 /* PHYS_440_Assignment_4App.swift */,
 				8FA6552F27C97AFA005A9C49 /* ContentView.swift */,
 				8FA6553027C97AFB005A9C49 /* Assets.xcassets */,
+				8F631E5E27D2DECD00BC63EB /* Drawing_View.swift */,
+				8FA6557027C99DD1005A9C49 /* Potentials.swift */,
+				8FA6556D27C99A76005A9C49 /* Runge_Kutta.swift */,
+				8FA6556A27C97BAB005A9C49 /* 1D_Schrodinger.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -300,7 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FA6555827C97AFB005A9C49 /* ContentView.swift in Sources */,
+				8F631E5F27D2DECD00BC63EB /* Drawing_View.swift in Sources */,
+				8FA6556E27C99A76005A9C49 /* Runge_Kutta.swift in Sources */,
+				8FA6557127C99DD1005A9C49 /* Potentials.swift in Sources */,
 				8FA6555627C97AFB005A9C49 /* PHYS_440_Assignment_4App.swift in Sources */,
+				8FA6556B27C97BAB005A9C49 /* 1D_Schrodinger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +329,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FA6555927C97AFB005A9C49 /* ContentView.swift in Sources */,
+				8F631E6027D2DECD00BC63EB /* Drawing_View.swift in Sources */,
+				8FA6556F27C99A76005A9C49 /* Runge_Kutta.swift in Sources */,
+				8FA6557227C99DD1005A9C49 /* Potentials.swift in Sources */,
 				8FA6555727C97AFB005A9C49 /* PHYS_440_Assignment_4App.swift in Sources */,
+				8FA6556C27C97BAB005A9C49 /* 1D_Schrodinger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
